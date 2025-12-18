@@ -2,6 +2,8 @@ import React from 'react'
 import { AiOutlineMenu } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
 import { IoMdMic } from "react-icons/io";
+import { RiVideoAddLine } from "react-icons/ri";
+import { AiOutlineBell } from "react-icons/ai";
 
 
 
@@ -9,9 +11,10 @@ import { IoMdMic } from "react-icons/io";
 function Nav() {
   return (
     <div className="flex justify-between px-6 py-2  ">
-      
-      
-  <div className=  " flex items-center space-x-4 border border-black">
+     
+      {/* first Div Box */}
+
+  <div className=  " flex items-center space-x-4 ">
     <AiOutlineMenu className="cursor-pointer" size={20}/>
  <img src="/logo.jpg" alt="logo" className="w-20 h-auto" />
 
@@ -19,7 +22,7 @@ function Nav() {
  
  {/* Second Div Box  */}
  
-  <div className=" flex w-[35%] border border-black">
+  <div className=" flex w-[35%] items-center ">
     <div className="w-[100%]  px-3 py-2 border rounded-l-full">
 <input type="text" placeholder="Search" className="outline-none" />
 </div>
@@ -34,7 +37,13 @@ function Nav() {
  
  {/* Third Div Box  */}
 
-  <div className="border border-black">3</div>
+  <div className=" flex space-x-5 items-center ">
+    <RiVideoAddLine className="text-2xl  cursor-pointer hover:bg-gray-200 duration-200" />
+    <AiOutlineBell  className="text-2xl  cursor-pointer hover:bg-gray-200 duration-200" />
+
+   <img src="/maxji.jpg" alt="profile" className="w-6 h-6 rounded-full cursor-pointer      transition-transform duration-200 hover:scale-120" />
+
+  </div>
 
     </div>
   )
