@@ -22,19 +22,25 @@ function Nav() {
  
  {/* Second Div Box  */}
  
-  <div className=" flex w-[35%] items-center ">
-    <div className="w-[100%]  px-3 py-2 border rounded-l-full">
-<input type="text" placeholder="Search" className="outline-none" />
-</div>
-<button className="px-3 py-2 border bg-gray-200 rounded-r-full">
-<CiSearch size={"22px"} />
-</button>
-<IoMdMic size={"38px"} className="ml-3 border rounded-full  p-2 cursor-pointer hover:bg-gray-200 duration-200" 
-/>
-
-
+ <div className="flex w-[35%] items-center">
+  <div className="flex items-center w-full border rounded-l-full px-3">
+    <input
+      type="text"
+      placeholder="Search"
+      className="w-full h-full py-2 outline-none cursor-text"
+    />
   </div>
- 
+
+  <button className="px-4 py-2 border cursor-pointer bg-gray-200 rounded-r-full">
+    <CiSearch size="22px" />
+  </button>
+
+  <IoMdMic
+    size="38px"
+    className="ml-3 border rounded-full p-2 cursor-pointer hover:bg-gray-200 duration-200"
+  />
+</div>
+
  {/* Third Div Box  */}
 
   <div className=" flex space-x-5 items-center ">
