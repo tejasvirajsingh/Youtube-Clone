@@ -5,7 +5,7 @@ This project replicates the core UI and basic functionality of YouTube, focusing
 
 ---
 
-## ✨ Features
+### ✨ Features
 
 - 📺 Responsive YouTube-like UI
 - 🔍 Search bar with modern layout
@@ -16,7 +16,7 @@ This project replicates the core UI and basic functionality of YouTube, focusing
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 - **Frontend:** React.js
 - **Build Tool:** Vite
@@ -26,6 +26,6 @@ This project replicates the core UI and basic functionality of YouTube, focusing
 
 ---
 
-## 📂 Project Structure
+### 📂 Project Structure
 
    Very Soon App is Ready to Visit and Explore it.....Max
