@@ -44,7 +44,7 @@ function Nav() {
  {/* Third Div Box  */}
 
   <div className=" flex space-x-5 items-center ">
-    <RiVideoAddLine className="text-2xl  cursor-pointer hover:bg-gray-200 duration-200" />
+    <RiVideoAddLine className="text-2xl  cursor-pointer hover:bg-gray-200 duration-300" />
     <AiOutlineBell  className="text-2xl  cursor-pointer hover:bg-gray-200 duration-200" />
 
    <img src="/maxji.jpg" alt="profile" className="w-6 h-6 rounded-full cursor-pointer      transition-transform duration-200 hover:scale-120" />
