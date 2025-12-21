@@ -39,7 +39,7 @@ function SideBar() {
     </div>
 
    </div>
-
+     {/* hr tag is used for horizontal line breaking... */}
  <hr/>
     </div>
     
