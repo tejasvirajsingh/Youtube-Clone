@@ -35,7 +35,7 @@ function SideBar() {
      {/* make a button of Download */}
  <div className="flex items-center space-x-6 cursor-pointer text-xl  hover:bg-gray-300 duration-300 rounded-xl p-1">
      <MdDownload />
-     <span>Download</span>
+     <span>Downloads</span>
     </div>
 
    </div>
